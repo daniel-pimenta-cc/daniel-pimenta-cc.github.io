@@ -1,0 +1,38 @@
+{
+    "name": "Daniel Pimenta - FullStack Developer",
+    "short_name": "Daniel Pimenta",
+    "start_url": ".",
+    "display": "minimal-ui",
+    "background_color": "#2C3541",
+    "theme_color": "#2C3541",
+    "description": "Portfólio profissional de Daniel Pimenta, desenvolvedor Full-Stack.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/favicon.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

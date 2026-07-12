@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Daniel Pimenta — Currículo</title>
+<style>
+  /* ATS-friendly: coluna única, texto real, sem tabelas/ícones/imagens */
+  @page { size: A4; margin: 16mm 18mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    color: #1a1a1a;
+  }
+  h1 { font-size: 22pt; letter-spacing: 0.5px; }
+  .headline { font-size: 12pt; color: #333; margin-top: 2px; }
+  .contact { margin-top: 6px; font-size: 9.5pt; color: #333; }
+  .contact a { color: #333; text-decoration: none; }
+  h2 {
+    font-size: 11pt;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 1.5px solid #1a1a1a;
+    padding-bottom: 2px;
+    margin: 14px 0 8px;
+  }
+  .job { margin-bottom: 10px; page-break-inside: avoid; }
+  .job-head { display: flex; justify-content: space-between; baseline-source: first; }
+  .job-title { font-weight: bold; }
+  .job-meta { color: #444; font-size: 9.5pt; white-space: nowrap; padding-left: 12px; }
+  .job-sub { color: #444; font-size: 9.5pt; margin-bottom: 3px; }
+  ul { margin: 2px 0 0 16px; }
+  li { margin-bottom: 2px; }
+  .skills p { margin-bottom: 3px; }
+  .skills b { display: inline-block; min-width: 105px; }
+  .proj { margin-bottom: 7px; page-break-inside: avoid; }
+  .proj a { color: #1a1a1a; }
+  .cv-nav { font-size: 9.5pt; margin-bottom: 14px; }
+  @media print { .cv-nav { display: none; } }
+</style>
+</head>
+<body>
+
+<nav class="cv-nav">
+  <a href="daniel_pimenta_cv.pdf">Baixar PDF</a> &nbsp;·&nbsp;
+  <a href="en.html">English version</a> &nbsp;·&nbsp;
+  <a href="/">dspimenta.com</a>
+</nav>
+
+<header>
+  <h1>Daniel Pimenta</h1>
+  <div class="headline">Desenvolvedor Full-Stack — Web, Mobile e Backend</div>
+  <div class="contact">
+    Minas Gerais, Brasil (remoto) &nbsp;·&nbsp; +55 22 99274-2705 &nbsp;·&nbsp;
+    <a href="mailto:danipimentasousa@gmail.com">danipimentasousa@gmail.com</a><br>
+    <a href="https://dspimenta.com">dspimenta.com</a> &nbsp;·&nbsp;
+    <a href="https://github.com/daniel-pimenta-cc">github.com/daniel-pimenta-cc</a> &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/daniel-pimenta-cc/">linkedin.com/in/daniel-pimenta-cc</a>
+  </div>
+</header>
+
+<h2>Resumo</h2>
+<p>
+Desenvolvedor full-stack com mais de 8 anos de experiência construindo e mantendo
+sistemas web, mobile e backend em produção. Atualmente responsável técnico da
+plataforma Real33 em contrato de longo prazo e criador de três produtos próprios
+em produção (InkedSync, Ledor e NextRead). Experiência de ponta a ponta: do
+levantamento de requisitos e arquitetura à implementação, deploy e manutenção.
+</p>
+
+<h2>Experiência Profissional</h2>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Desenvolvedor Full-Stack — Real33</span>
+    <span class="job-meta">jan/2025 – atual · Remoto</span>
+  </div>
+  <div class="job-sub">Contrato de longo prazo · plataforma para corretores imobiliários</div>
+  <ul>
+    <li>Desenvolvimento de plataforma que centraliza a rotina do corretor de imóveis: gestão de clientes e imóveis, portal de divulgação, fichas de visita digitais, contratos a partir de modelos e vistorias</li>
+    <li>Responsável técnico de ponta a ponta, da concepção das funcionalidades ao deploy</li>
+    <li>Produto em fase final de desenvolvimento, com teste fechado previsto</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Desenvolvedor Full-Stack — Freelancer</span>
+    <span class="job-meta">jun/2018 – atual · Remoto</span>
+  </div>
+  <ul>
+    <li>Desenvolvimento backend, integrações entre sistemas e novas features em produtos internos de clientes — trabalho majoritariamente sob NDA</li>
+    <li>Mais de 10 sistemas entregues: e-commerce com rede MLM, bots de automação de trading, aplicativos Android nativos, sites e automações</li>
+    <li>Manutenção, correção de bugs e otimização de performance em sistemas em produção</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Programador DevOps — Tedsys Software</span>
+    <span class="job-meta">abr/2022 – dez/2022 · Cabo Frio/RJ</span>
+  </div>
+  <ul>
+    <li>Monitoramento e manutenção de servidores Linux na AWS</li>
+    <li>Desenvolvimento e atualização de integrações entre sistemas</li>
+    <li>Otimização de métricas web (FCP, LCP, TTFB) em sites WordPress e soluções de coleta de dados para KPIs</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Desenvolvedor Back-End Júnior — Mimetics</span>
+    <span class="job-meta">ago/2021 – fev/2022 · Cabo Frio/RJ</span>
+  </div>
+  <ul>
+    <li>Desenvolvimento de APIs com FastAPI, SQLAlchemy e PostgreSQL</li>
+    <li>Integração de APIs de operações financeiras em uma rede social de copy trading</li>
+    <li>Idealização e implementação de infraestrutura escalável para bots de automação de operações financeiras</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Assistente de Marketing Digital — Bigou</span>
+    <span class="job-meta">jan/2020 – fev/2021 · Rio Pomba/MG</span>
+  </div>
+  <ul>
+    <li>Criação e gestão de campanhas no Facebook Ads e Google Ads; produção de artes e vídeos promocionais</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Desenvolvedor Full-Stack — EmComp (Empresa Júnior)</span>
+    <span class="job-meta">ago/2019 – abr/2020 · Rio Pomba/MG</span>
+  </div>
+  <ul>
+    <li>Desenvolvimento de sistemas web responsivos para empresas locais e projetos do campus; apoio na manutenção dos servidores de hospedagem</li>
+  </ul>
+</div>
+
+<div class="job">
+  <div class="job-head">
+    <span class="job-title">Sysadmin (Estágio) — LicitUbá</span>
+    <span class="job-meta">jun/2019 – jan/2020 · Ubá/MG</span>
+  </div>
+  <ul>
+    <li>Manutenção preventiva de servidor e banco de dados; atualizações na aplicação web e no app Android; procedimentos automatizados de backup</li>
+  </ul>
+</div>
+
+<h2>Projetos Próprios</h2>
+
+<div class="proj">
+  <b>InkedSync</b> — Gestão para tatuadores: agenda, clientes e finanças. Flutter, Python, PostgreSQL. Em beta fechado.
+  &nbsp;<a href="https://inkedsync.com">inkedsync.com</a>
+</div>
+<div class="proj">
+  <b>Ledor</b> — Leitor open source de leitura dinâmica (RSVP/ORP, EPUB, TTS). Flutter, Android e Linux.
+  &nbsp;<a href="https://github.com/daniel-pimenta-cc/ledor">github.com/daniel-pimenta-cc/ledor</a>
+</div>
+<div class="proj">
+  <b>NextRead</b> — Estante de leitura com recomendações por IA. Laravel (API REST), Angular, integrações com APIs de livros.
+  &nbsp;<a href="https://nextread.com.br">nextread.com.br</a>
+</div>
+
+<h2>Habilidades Técnicas</h2>
+<div class="skills">
+  <p><b>Mobile:</b> Flutter, Dart, Android nativo (Java)</p>
+  <p><b>Backend:</b> Python (FastAPI), PHP (Laravel), APIs REST, integrações entre sistemas</p>
+  <p><b>Front-end:</b> Angular, JavaScript, HTML, CSS, Bootstrap</p>
+  <p><b>Dados &amp; Infra:</b> PostgreSQL, MySQL, Docker, AWS, Linux, WordPress</p>
+</div>
+
+<h2>Formação</h2>
+<p>
+Ciência da Computação — Instituto Federal de Educação, Ciência e Tecnologia
+do Sudeste de Minas Gerais · 2016 – 2021
+</p>
+
+<h2>Certificações</h2>
+<ul>
+  <li>Associate Android Developer — Google</li>
+  <li>Android Basics Nanodegree — Udacity</li>
+  <li>Data Science — Udacity</li>
+</ul>
+
+<h2>Idiomas</h2>
+<p>Português (nativo) · Inglês — nível profissional (leitura, escrita e conversação)</p>
+
+</body>
+</html>
